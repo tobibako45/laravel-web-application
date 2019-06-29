@@ -32,3 +32,8 @@ Route::get('auth/login', 'Auth\LoginController@showLoginForm');
 Route::post('auth/login', 'Auth\LoginController@login');
 
 Route::get('auth/logout', 'Auth\LoginController@logout');
+
+// ファサードテスト
+Route::get('demo/facade',function(){
+    return FacadeTest::getMessage();
+});

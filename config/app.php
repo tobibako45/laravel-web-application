@@ -177,6 +177,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // 追加
+        App\Providers\FacadeTestServiceProvider::class,
+
     ],
 
     /*
@@ -225,6 +228,9 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        // 配列のキーに "FacadeTest" を指定したことで FacadeTest でクラスにアクセスできるようになる
+        'FacadeTest' => App\Facades\FacadeTest::class,
 
     ],
 
