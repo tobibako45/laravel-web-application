@@ -1,0 +1,2 @@
+{{$hoge}}
+{{dd($result)}}

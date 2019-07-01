@@ -179,6 +179,10 @@ return [
 
         // 追加
         App\Providers\FacadeTestServiceProvider::class,
+        App\Providers\HogeServiceProvider::class,
+        // DI練習用
+        App\Providers\CalculationServiceProvider::class,
+
 
     ],
 
@@ -231,6 +235,7 @@ return [
 
         // 配列のキーに "FacadeTest" を指定したことで FacadeTest でクラスにアクセスできるようになる
         'FacadeTest' => App\Facades\FacadeTest::class,
+        'Hoge' => App\Facades\Hoge::class,
 
     ],
 

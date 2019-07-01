@@ -37,3 +37,8 @@ Route::get('auth/logout', 'Auth\LoginController@logout');
 Route::get('demo/facade',function(){
     return FacadeTest::getMessage();
 });
+
+Route::get('sample', 'SampleController@index');
+// Route::get('sample', function () {
+//     return 'asasasas';
+// });
