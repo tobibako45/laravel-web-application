@@ -182,8 +182,6 @@ return [
         App\Providers\HogeServiceProvider::class,
         // DI練習用
         App\Providers\CalculationServiceProvider::class,
-
-
     ],
 
     /*

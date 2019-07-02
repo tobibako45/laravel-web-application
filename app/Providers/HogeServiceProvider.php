@@ -25,7 +25,7 @@ class HogeServiceProvider extends ServiceProvider
     {
         $this->app->bind(
             'hoge',
-            'App\Http\Components\Hoge'
+            'App\Services\Hoge'
         );
     }
 }

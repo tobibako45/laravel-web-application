@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use App\Services\CalculationService;
 use Illuminate\Support\ServiceProvider;
+use App\Services\CalculationService;
 
 class CalculationServiceProvider extends ServiceProvider
 {
@@ -24,9 +24,9 @@ class CalculationServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('Calculation', function($app){
+        $this->app->bind('Calculation', function () {
             return new CalculationService();
-        }
-        );
+        });
     }
+
 }

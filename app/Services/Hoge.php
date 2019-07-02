@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Components;
+namespace App\Services;
 
 class Hoge
 {
