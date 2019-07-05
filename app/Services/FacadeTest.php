@@ -8,6 +8,6 @@ class FacadeTest
 {
     public function getMessage()
     {
-        return 'ファサードのテスト成功！';
+        return 'FacadeTestファサードのテスト成功！';
     }
 }

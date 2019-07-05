@@ -24,7 +24,7 @@ class FacadeTestServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind( //サービスコンテナにバインド
-            'Calculation', //キー名
+            'FacadeTest', //キー名
             'App\Services\FacadeTest' //クラス名
         );
     }
